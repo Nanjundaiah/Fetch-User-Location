@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity{
         result = findViewById(R.id.result_tv);
         client = LocationServices.getFusedLocationProviderClient(this);
 
-
         fetch.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
